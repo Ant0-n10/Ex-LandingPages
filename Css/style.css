@@ -2,4 +2,44 @@ body{
     height: 100vh;
     background: linear-gradient(90deg,#000,#000D 35%,#0000), url(../img/background.png) no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 128px 50px 128px;
+}
+
+
+/*CABEÇALHO do site*/
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navMenu{
+    display: flex;
+    gap: 32px;
+}
+
+.navMenu a{
+    text-shadow: 2px 2px 2px #000;
+}
+
+.navMenu a:hover{
+    background-color: #E62421;
+    padding: 6px;
+    border-radius: 59px;
+    transition: all .5s;
+}
+
+
+/*CORPO DO SITE*/
+main{
+    background-color: tomato;
+    flex-grow: 1;
+}
+
+
+/*RODAPÉ*/
+footer{
+    background-color: violet;
+    height: 21px;
 }
