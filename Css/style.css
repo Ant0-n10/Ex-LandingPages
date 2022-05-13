@@ -120,6 +120,7 @@ main{
 
 /*RODAPÉ*/
 footer{
-    background-color: violet;
-    height: 21px;
+    font-style: italic;
+    color: #fff;
+    text-align: center;
 }
